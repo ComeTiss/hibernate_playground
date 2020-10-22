@@ -1,0 +1,16 @@
+server:
+  port: "9090"
+
+spring:
+  jpa:
+    hibernate:
+      dialect: "org.hibernate.dialect.PostgreSQLDialect"
+      ddl-auto: "update"
+      show-sql: "true"
+
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/dbmodelling"
+    username: "postgres"
+    password: "Supercrapule96-"
+    initialization-mode: "always"
+    initialize: "true"
